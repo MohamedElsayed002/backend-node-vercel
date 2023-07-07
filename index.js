@@ -10,4 +10,9 @@ app.get('/mohamed' , (req,res) => {
 })
 
 
+app.get('/gamedawi' , (req,res) => {
+    res.send('<h1> dlsdlsldplpdkfofkod</h1>')
+})
+
+
 app.listen(3005 , () => console.log('listening server'))
