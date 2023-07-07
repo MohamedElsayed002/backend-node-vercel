@@ -5,7 +5,7 @@ import express from 'express'
 const app = express()
 
 
-app.get('/' , (req,res) => {
+app.get('/mohamed' , (req,res) => {
     res.send('<h1>Mohamed Elsayed </h1>')
 })
 
